@@ -18,10 +18,10 @@ unlisted: false
 </div>
 
 
-The recent weeks have seen a flood of new [OpenAIs GPTs](https://openai.com/blog/introducing-gpts) comming into being. Upon inspection of what the community has created, it is evident that GPTs are still an emerging technology and no "best-practices" have developed yet. 
+The recent weeks have seen a flood of new [OpenAIs GPTs](https://openai.com/blog/introducing-gpts) comming into being. Upon inspection of what the community has created, it is evident that GPTs are still an emerging technology and no "best-practices" have developed yet.
 One aspect that has seen diverse approaches is the way of addressing GPTs in their instructions. While the GPT builder addresses the them by their title in the automatically generated instructions, it is clear that neither is this know to be "the" best way of doing it, nor is it the only way that is used. Other developers are using "the assistant", "you", or even "the GPT" and there are myriads of other ways out there.
 
-The aim of this experiment is to figure out, how to best address a GPT in it's instructions. 
+The aim of this experiment is to figure out, how to best address a GPT in it's instructions.
 
 ---
 
@@ -41,12 +41,12 @@ The aim of this experiment is to figure out, how to best address a GPT in it's i
 ---
 
 ## TL;DR
-- "You" is the strongest way of addressing a GPT, followed by the name of the the GPT. 
+- "You" is the strongest way of addressing a GPT, followed by the name of the the GPT.
 - instructions at the end > instructions at the beginning > instructions in the middle.
 
 ---
 
-## Experiment Design 
+## Experiment Design
 
 ### Tested variables
 
@@ -77,7 +77,7 @@ These are the contradicting instructions regarding the meaning of the word "quad
 
 For each of the 120 possible permutations of the 5 tested variables, 6 tests runs were conducted, each in a clean session with the GPT.
 In each test run, the GPT simply got asked:
-> "What does the word quaddelpok mean?". 
+> "What does the word quaddelpok mean?".
 
 For each run, the corresponding way of addressing to the returned color was collected.
 
@@ -87,15 +87,15 @@ For each run, the corresponding way of addressing to the returned color was coll
 
 ### Addressing methods:
 
-The experiment has shown that there is a significant difference in the effectiveness of various addressing methods. 
+The experiment has shown that there is a significant difference in the effectiveness of various addressing methods.
 ![Relative Wins by Addressing Method](https://raw.githubusercontent.com/luona-dev/latestGPTs/main/assets/research/addressing-experiment/combined-relative.png)
 
 "You" has won in more than 50% of the test runs, followed by the title of the GPT (in this experiment "TestGPT") with ~30%. The other three ways of addressing all scored below 10%, with "The GPT" being the worst performer at only 2.50% wins.
 
 ### Order:
-The experiment made clear: Order matters. Instructions at the end end have a particularly strong influence. 
+The experiment made clear: Order matters. Instructions at the end end have a particularly strong influence.
 ![Wins by Position in the Instruction Set](https://raw.githubusercontent.com/luona-dev/latestGPTs/main/assets/research/addressing-experiment/combined-positions.png)
-The instruction that was given the last, won in 50% of the test runs. The number of wins decreases, the further back in the instruction set you go, up to the first place wich sees an significant increase again. 
+The instruction that was given the last, won in 50% of the test runs. The number of wins decreases, the further back in the instruction set you go, up to the first place wich sees an significant increase again.
 
 ![Addressing methods wins at Position](https://raw.githubusercontent.com/luona-dev/latestGPTs/main/assets/research/addressing-experiment/combined-position-wins.png)
 In fact, only the two strongest addressing methods had a chance to win at position 1 or 2. Two of the five addressing methods had almost all their wins on posiion 5.
@@ -118,7 +118,7 @@ I initially started the experiment with only four variables, before it was point
 
 The experiment has shown, that addressing a GPT with "you" or the title of the GPT is the strongest way and should be prefered. Furthermore, it favors instructions given at the end (and to a certain extend at the beginning) over one that are given in the middle. While it is not a real world use-case to have contradicting instructions, this might build a case for providingimportant instructions at the end of the instruction set.
 
-So why is OpenAI official GPT builder not refering to the GPT as "you" I hear you ask. During research I stumbled across a plausible explanation (by @RonaldGRuckus)[https://community.openai.com/t/custom-gpt-instructions-using-2nd-vs-3rd-person/497663/7?u=luona.dev]: Since the generated instructions have to be part of GPT builders context, it would get confused if these would be written in 2nd person aka "you". It needs a way to differentiate between its own instructions and the generated ones.
+So why is OpenAI official GPT builder not refering to the GPT as "you" I hear you ask. During research I stumbled across a plausible explanation [by @RonaldGRuckus](https://community.openai.com/t/custom-gpt-instructions-using-2nd-vs-3rd-person/497663/7?u=luona.dev): Since the generated instructions have to be part of GPT builders context, it would get confused if these would be written in 2nd person aka "you". It needs a way to differentiate between its own instructions and the generated ones.
 
 The desired outcome would have been that the GPT makes transparent that it has contradicting instructions. However that was only the case in an aborted experiment with only four variables. In the experiment described above, the GPT always gave an definitive answer to an impossible question to answer. This might be a phenomenom to further investigate.
 
@@ -128,7 +128,7 @@ The desired outcome would have been that the GPT makes transparent that it has c
 
 I hope some of you found this experiment to be interesting, ideally helpful and a joyfull read. I would like to do more stuff like this in the future. If you can and want to support me, you can buy me some time for this on [buymeacoffee](https://www.buymeacoffee.com/kon.foo)
 
-If you have any feedback, please contact me on [Twitter](https://twitter.com/kondotfoo) or [Discord](https://discordapp.com/users/kon.foo).
+If you have any feedback, please contact me on [Mastodon](https://c.im/@konfoo) or [Discord](https://discordapp.com/users/kon.foo).
 
 If you want to stay up to date with our research, guides and \[latest] GPTs, I would be happy to welcome you to our [**newsletter**](https://newsletter.luona.dev/subscription/form). No hype, no spam, just a ping every now and then when we have something to share.
 

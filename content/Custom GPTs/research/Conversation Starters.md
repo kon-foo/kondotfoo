@@ -32,4 +32,4 @@ This differentiation between title/description and the prompt that is actually u
 
 You can find the complete list (date: 2023-12-18) [here](https://raw.githubusercontent.com/luona-dev/latestGPTs/main/assets/research/conversation-starters.json).
 
-If you want to be informed about little tidbits like this, or want to be updated about our research and projects you can follow me on [Twitter](https://twitter.com/kondotfoo) or [subscribe to the newsletter](https://newsletter.luona.dev/subscription/form) - No hype, no spam, just a ping when I publish something new.
+If you want to be informed about little tidbits like this, or want to be updated about our research and projects you can follow me on [Mastodon](https://c.im/@konfoo) or [subscribe to the newsletter](https://newsletter.luona.dev/subscription/form) - No hype, no spam, just a ping when I publish something new.
