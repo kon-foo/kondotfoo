@@ -8,6 +8,9 @@ Sync changes:
 ```
 npx quartz sync --no-pull
 ```
+Run locally:
+```
+npm quartz 
 
 ### Markdown Syntax
 
