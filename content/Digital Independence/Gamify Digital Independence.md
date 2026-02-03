@@ -1,0 +1,14 @@
+---
+description: ""
+draft: true
+tags: 
+title: Gamify Digital Independence
+date: 2026-02-03
+---
+This years [39c3](https://app.media.ccc.de/v/39c3-die-kanguru-rebellion-digital-independence-day) brought us the Digital Independence Day. In an [entertaining talk](https://app.media.ccc.de/v/39c3-die-kanguru-rebellion-digital-independence-day) by [Marc-Uwe Kling](https://www.wikidata.org/wiki/Q104199) an idea was outlined on how to bring forward digital independence. Digital independence has been a topic close to my heart for my entire digital life. But it has always been a rather private and niche hobby. Well, my friends know that they won't find me on social, my family comes to me when the printer doesn't work and my partner has to endure countless outages whenever some critical component of [[my homelab|My Homelab]] breaks, but apart from that I have never been really outspoken about this topic. And this is something where the "Digital Independence Day" enters the stage. Kling in his talk points out, that as important as it is to become more independent from Big Tech it is to brag about it. To share it with others and to make other people keen on starting themselves. 
+
+Last year brought us back the orange lunatic and his inauguration, where the tech-bros lined up to kiss daddy's ass was certainly an eye-opening for a broader public when it comes to digital sovereignty. In the Fediverse, the hastag [#UnpluggTrump](https://rstockm.github.io/mastowall/?hashtags=UnplugTrump&server=https%3A%2F%2Fmastodon.social) gained some inertia and smart people composed [articles](https://www.kuketz-blog.de/unplugtrump-free-yourself-digitally-from-trump-and-big-tech/) with tips and guides on howto get started. Now with the proclaimed Digital Independece Day, this movement (I know its a big word for this at this point in time) has a fixed day (every first sunday a month) to funnel their activities and to create some public attention. 
+
+## Make it fun
+While I myself can find a lot of joy in sinking a whole weekend into optimizing some edge case homelab workflow or pondering over some deep technical problems, it creeps up upon me that this is not the case for everyone. My partner has what she calls tech-tourette which manifests itself in furious outbursts against her cell phone or laptop when something isn't working as it should. But one thing that works on her and that works on most of us is the dopamine kick of small accomplishments. So here is my take: Digital Independence needs Gamification! Achievements, medals, scores and rankings, sweet little creatures with big, googly eyes telling you how great you are for navigating with Open Street Map. One could even go full Duolingo style and emotionally blackmail someone for switching back to Google Search: You made Duo sad 🥺 
+Okay, maybe thats a bit too much, but you get the gist of it.

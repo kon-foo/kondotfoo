@@ -21,5 +21,7 @@
   // "remoteUser": "root"
 
   // Mount Obsidian Vault
-  "mounts": ["source=/home/konfoo/Documents/00_Notizen/kondotfoo,target=/workspace/notes,type=bind"]
+  "mounts": [
+    "source=/home/konfoo/Documents/00_Notizen/kondotfoo,target=/workspaces/kondotfoo/content,type=bind"
+  ]
 }
