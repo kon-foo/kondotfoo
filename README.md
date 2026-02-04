@@ -10,7 +10,8 @@ npx quartz sync --no-pull
 ```
 Run locally:
 ```
-npm quartz 
+npx quartz build --serve
+```
 
 ### Markdown Syntax
 

@@ -1,6 +1,7 @@
 ---
 description: Overview over the GPTs that I created
 title: My custom GPTs
+comments: true
 ---
 - [[GPTs/latest/index|The latest GPTs family]]
 	- A family of GPTs for some coding libraries, equipped with knowledge-files that document the changes between the training of ChatGPT and now.

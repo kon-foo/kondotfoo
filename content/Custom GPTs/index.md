@@ -10,6 +10,7 @@ tags:
 enableToc: true
 unlisted: false
 title: Custom GPTs
+comments: true
 ---
 On these pages you will find information on:
 - [[GPTs/research/index|My research on custom GPTs and the Assistants API]]

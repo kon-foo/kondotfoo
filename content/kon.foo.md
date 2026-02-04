@@ -1,6 +1,10 @@
 ---
 description: Who? What? Why?
 title: kon.foo
+comments: false
+enableToc: false
+draft: false
+permalink:
 ---
 Hi there 👋, 
 my name is Lucas aka kon.foo. 
